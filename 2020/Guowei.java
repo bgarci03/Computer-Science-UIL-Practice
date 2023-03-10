@@ -19,7 +19,7 @@ public class Guowei
       /**
        * Using a char array can be used,
        * but perfotmance will be slow,
-       * so instead this algorithgm is
+       * so instead this algorithm is
        * used
        */
       int shift = Integer.parseInt(sc.nextLine());
