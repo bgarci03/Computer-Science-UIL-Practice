@@ -26,8 +26,8 @@ public class Guowei
 
       String display = "";
 
-      /* While shift is greater than 
-       * the length of what is to be displayed,
+      /* While shift is greater than the 
+       * length of what is to be displayed,
        * it'll find the difference between
        * shift and the length of what is to
        * be displayed
@@ -36,7 +36,7 @@ public class Guowei
         shift -= phrase.length();
 
       /* Creates a substring starting from shift
-       * and the adds the remaining text. If the
+       * and then adds the remaining text. If the
        * remaining characters are missing, it will
        * go back to the beginning
        */
