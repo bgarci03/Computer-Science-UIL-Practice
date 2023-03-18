@@ -5,8 +5,7 @@ public class Abril
   public static void main(String[] args)
   {
     // MAIN CODE BEGINS HERE
-    /*
-     * All of this code can be made in a single line,
+    /* All of this code can be made in a single line,
      * but is like this to provide visuality
      */
     out.println("    UIL 2020");

@@ -16,10 +16,9 @@ public class Guowei
     // MAIN CODE BEGINS HERE
     for (int i = 0; i < cases; i++)
     {
-      /**
-       * Using a char array can be used,
+      /* Using a char array can be used,
        * but perfotmance will be slow,
-       * so instead this algorithm is
+       * so instead this algorithgm is
        * used
        */
       int shift = Integer.parseInt(sc.nextLine());
@@ -27,9 +26,20 @@ public class Guowei
 
       String display = "";
 
+      /* While shift is greater than than
+       * the length of what is to be displayed,
+       * it'll find the difference between
+       * shift and the length of what is to
+       * be displayed
+       */
       while (shift > phrase.length())
         shift -= phrase.length();
 
+      /* Creates a substring starting from shift
+       * and the adds the remaining text. If the
+       * remaining characters are missing, it will
+       * go back to the beginning
+       */
       display = phrase.substring(shift);
 
       if (display.length() < 40)

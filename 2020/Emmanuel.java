@@ -14,14 +14,23 @@ public class Emmanuel
     int index = 0;
 
     // MAIN CODE BEGINS HERE
-    for (int i = 0; i < cases; i++)
+    while (cases-- > 0)
     {
+      /* Creates an array from the given input
+       * by creating substrngs
+       */
       String input = sc.nextLine();
       String[] array = input.substring(1, input.indexOf("}")).split(",");
 
       int modeIndex = 0;
       int timesAppeared = 0;
 
+      /* The following uses the standard mode
+       * algorithm. Using another array to help
+       * find the mode is possible but takes up
+       * too much memory if there are large
+       * numbers
+       */
       for (int element = 0; element < array.length; element++)
       {
         int count = 0;

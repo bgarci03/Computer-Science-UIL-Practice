@@ -5,9 +5,9 @@ public class Brittany
 {
   public static void main(String[] args)
   {
-    // MAIN CODE BEGINS HERE
     Scanner sc = new Scanner(System.in);
 
+    // MAIN CODE BEGINS HERE
     String[] nums = sc.nextLine().split(" ");
 
     double sum = 0;
