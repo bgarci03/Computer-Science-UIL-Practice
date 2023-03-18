@@ -26,7 +26,7 @@ public class Guowei
 
       String display = "";
 
-      /* While shift is greater than than
+      /* While shift is greater than 
        * the length of what is to be displayed,
        * it'll find the difference between
        * shift and the length of what is to
