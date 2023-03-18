@@ -21,7 +21,7 @@ public class Ina
     while (cases-- > 0)
     {
       /* Separates the given data in a list
-       * tnen converts it into Integers
+       * then converts it into Integers
        */
       String[] data = sc.nextLine().split(" ");
 
