@@ -142,7 +142,7 @@ public class Ina
         totalTime += downloadTime;
       }
 
-      output[index] = "Cases #" + (index + 1) + ": " + totalTime;
+      output[index] = "Case #" + (index + 1) + ": " + totalTime;
       index++;
     }
 
