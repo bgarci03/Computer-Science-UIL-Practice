@@ -31,7 +31,7 @@ public class Magdalena
     String digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     String newDigit = "";
 
-    int sum = 0;
+    long sum = 0;
     String digitSum = "";
 
     if (value.length() == 1)
@@ -71,7 +71,7 @@ public class Magdalena
     if (power > 0)
       power--;
 
-    int place = (int) Math.pow(base, power);
+    long place = (long) Math.pow(base, power);
 
     while (place >= 1)
     {
