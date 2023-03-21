@@ -10,7 +10,7 @@ The code provided may not be the best solution, but is an attempt at it.
 
 ## 2020
 
-#Problem 7
+# Problem 7
 In a Sudoku puzzle, there should be no repeating numbers in each row, column, and 3x3 grid, but in the sample input and output for *Problem 7*, there are repeating numbers in *row 6*, repeating 3, and *row 8*, repeating 8 in the second sample test case. The numbers in italic show where the errors are.
 
 
