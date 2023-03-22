@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import static java.lang.System.out;
 
-// IMPORTS NEEDED FOR ALGORITHm
+// IMPORTS NEEDED FOR ALGORITHM
 import java.util.HashMap;
 
 public class Noah
@@ -19,8 +19,8 @@ public class Noah
 
     String[] data = new String[count];
 
-    /* Collects the data inputed and stores
-     * each line in a array, then splits each
+    /* Collects the data inputted and stores
+     * each line in an array, then splits each
      * line to get the separate data and store
      * those in an array as well
      */
@@ -119,6 +119,11 @@ public class Noah
     sc.close();
   }
 
+  /**
+   * Sort a String array based on ASCII
+   * or alphabetical order
+   * @param array is a String array
+   */
   static void stringSort(String[] array)
   {
     for (int i = 1; i < array.length; i++)
@@ -135,6 +140,11 @@ public class Noah
     }
   }
 
+  /**
+   * Sort an integer array based on
+   * lowest to greatest
+   * @param array is an integer array
+   */
   static void integerSort(int[] array)
   {
     for (int i = 1; i < array.length; i++)

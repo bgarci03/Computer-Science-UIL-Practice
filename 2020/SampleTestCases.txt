@@ -111,20 +111,11 @@ BA26F57D CD3B689F
 AAAAA57D AAAAA3B6
 
 Problem 11 - Seema
-California 3 
-Oklahoma 3 
-Arizona 2 
-Ohio 2 
-Arkansas 1 
-Idaho 1 
-Missouri 1 
-Nevada 1 
-North Dakota 1 
-Washington 1
+Oklahoma,Nevada,Oklahoma,Oklahoma,Ohio,North Dakota,Missouri,Arizona,Idaho,Arkansas,California,Arizona,California,Ohio,Washington,California
 
 Problem 12 - Wojtek
-4 
-6 -2 3 5 
-3 1 4 1 
-2 -7 1 -8 
+4
+6 -2 3 5
+3 1 4 1
+2 -7 1 -8
 0 1 2 3

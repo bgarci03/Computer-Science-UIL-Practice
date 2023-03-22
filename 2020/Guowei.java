@@ -17,8 +17,8 @@ public class Guowei
     for (int i = 0; i < cases; i++)
     {
       /* Using a char array can be used,
-       * but perfotmance will be slow,
-       * so instead this algorithgm is
+       * but performance will be slow,
+       * so instead this algorithm is
        * used
        */
       int shift = Integer.parseInt(sc.nextLine());

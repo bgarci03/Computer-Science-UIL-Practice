@@ -16,12 +16,12 @@ public class Magdalena
   while (cases-- > 0)
   {
     /* Using logic, the digit with the greatest
-     * digit sum is a digit with all of it's
+     * digit sum is a digit with all of its
      * digit places being maxed out while still
      * being <= the input.
      * 
      * e.g.
-     * INPUT: 100 (99 has greatest digit sum)
+     * INPUT: 100 (99 has the greatest digit sum)
      * OUTPUT: 18
      */
     int base = sc.nextInt();
@@ -62,7 +62,7 @@ public class Magdalena
       sum += digits.indexOf(newDigit.substring(i, i + 1));
 
     /* Converts the sum into the base that was
-     * inputed
+     * inputted
      */
     int power = 0;
 

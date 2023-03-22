@@ -6,7 +6,7 @@ public class Abril
   {
     // MAIN CODE BEGINS HERE
     /* All of this code can be made in a single line,
-     * but is like this to provide visuality
+     * but is like this to provide visual
      */
     out.println("    UIL 2020");
     out.println("  Java Program");
